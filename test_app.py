@@ -19,3 +19,10 @@ def test_shout(capsys):
 def test_whisper(capsys):
     whisper()
     assert capsys.readouterr().out == "...quietly does the thing...\n"
+
+
+def test_morning_routine(capsys):
+    from app import morning_routine
+
+    morning_routine()
+    assert capsys.readouterr().out == "Hello, world!\nWATCH OUT!\n"
