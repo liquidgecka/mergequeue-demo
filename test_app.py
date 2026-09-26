@@ -1,8 +1,8 @@
-from app import greet, farewell, shout, whisper
+from app import hello, farewell, shout, whisper
 
 
-def test_greet(capsys):
-    greet()
+def test_hello(capsys):
+    hello()
     assert capsys.readouterr().out == "Hello, world!\n"
 
 
