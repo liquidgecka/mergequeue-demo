@@ -15,5 +15,5 @@ def whisper():
 
 
 def morning_routine():
-    greet()
+    hello()
     shout()
