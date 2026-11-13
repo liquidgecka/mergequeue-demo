@@ -11,4 +11,5 @@ def shout():
 
 
 def whisper():
+    """Do the thing quietly."""
     print("...quietly does the thing...")
