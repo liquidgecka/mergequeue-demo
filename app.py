@@ -1,4 +1,4 @@
-def greet():
+def hello():
     print("Hello, world!")
 
 
@@ -13,3 +13,8 @@ def shout():
 def whisper():
     """Do the thing quietly."""
     print("...quietly does the thing...")
+
+
+def morning_routine():
+    hello()
+    shout()
