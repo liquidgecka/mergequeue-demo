@@ -1,8 +1,8 @@
-from app import greet, farewell, shout, whisper
+from app import hello, farewell, shout, whisper
 
 
-def test_greet(capsys):
-    greet()
+def test_hello(capsys):
+    hello()
     assert capsys.readouterr().out == "Hello, world!\n"
 
 
@@ -19,3 +19,10 @@ def test_shout(capsys):
 def test_whisper(capsys):
     whisper()
     assert capsys.readouterr().out == "...quietly does the thing...\n"
+
+
+def test_morning_routine(capsys):
+    from app import morning_routine
+
+    morning_routine()
+    assert capsys.readouterr().out == "Hello, world!\nWATCH OUT!\n"
