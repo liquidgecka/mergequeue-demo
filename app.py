@@ -12,3 +12,8 @@ def shout():
 
 def whisper():
     print("...quietly does the thing...")
+
+
+def morning_routine():
+    greet()
+    shout()
