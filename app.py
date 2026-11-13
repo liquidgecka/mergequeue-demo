@@ -8,6 +8,7 @@ def farewell():
 
 
 def shout():
+    """Warn loudly."""
     print("WATCH OUT!")
 
 
